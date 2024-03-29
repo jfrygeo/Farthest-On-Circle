@@ -22,5 +22,18 @@ In this instance, the mask layer (watermaskworld1km) is a raster layer of water 
 
 The steps are outlined in the video [Farthest On Circle Tutorial](https://github.com/jfrygeo/Farthest-On-Circle/tree/master/FarthestOnCircle/Video).
 
+1. Download the Repo
+2. Navigate to the folder in Windows Explorer and copy the folder UNC path above the "FarthestOnCircleArcGISPro.gpkx" tool.
+3. Open ArcGIS Pro
+4. Navigate to the "Folders" section of ArcGIS Pro's "Catalog" Window
+5. Right-Click on "Folders" and select "Add Folder Connection"
+6. Input the UNC folder path in step 2
+7. Right-Click "FarthestOnCircleArcGISPro.gpkx" and select "Add to Project"
+8. Navigate in ArcGIS to the "Analysis" tab and then choose "History"
+9. In the "History" window, double click the "Farthest On Circle Hours"
+10. Fill out the parameters in the tool and press "Run."
+
+
+
 ### Known issues
 The sample dataset, (watermaskworld1km), has some issues as not all water areas are located in the dataset. For instance, inland bodies are water are not included, as well as small bodies of water such as canals, or narrow straits. 
