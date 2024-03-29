@@ -22,8 +22,8 @@ In this instance, the mask layer (watermaskworld1km) is a raster layer of water 
 
 The steps are outlined in the video [Farthest On Circle Tutorial](https://github.com/jfrygeo/Farthest-On-Circle/tree/master/FarthestOnCircle/Video).
 
-1. Download the Repo
-2. Navigate to the folder in Windows Explorer and copy the folder UNC path above the "FarthestOnCircleArcGISPro.gpkx" tool.
+1. Download the repository
+2. Navigate to the folder above in Windows Explorer and copy the folder UNC path above the "FarthestOnCircleArcGISPro.gpkx" tool.
 3. Open ArcGIS Pro
 4. Navigate to the "Folders" section of ArcGIS Pro's "Catalog" Window
 5. Right-Click on "Folders" and select "Add Folder Connection"
