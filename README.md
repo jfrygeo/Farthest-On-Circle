@@ -7,7 +7,7 @@ Tool that uses ArcGIS technology to find out how far a vessel may get in a certa
   <img width="300" height="270" src="https://github.com/jfrygeo/Farthest-On-Circle/blob/master/FarthestOnCircle/Images/farthestOnCircle.PNG">
 </p>
 
-<i>Farthest on Circle Output Showing progress in hourly increments</i>
+<i align="center">Farthest on Circle Output Showing progress in hourly increments</i>
 
 This tool could be used to get an understanding where a vessel may be located in a number of hours.
 
@@ -17,6 +17,10 @@ The farthest on circle uses a mask layer of suitable locations. For instance, bo
 
 ## Sample Data
 In this instance, the mask layer (watermaskworld1km) is a raster layer of water locations at 1km resolution. This dataset was created from the Esri's Countries Layer Package, where all country values (land areas) were marked as not suitable for navigation and all areas that are ocean are suitable. One could use a mask layer that is more restrictive, such as one that takes into account bathymetry, or restricted areas that ship cannot or will not pass through.
+
+## Steps
+
+<p align="center"> <src="https://github.com/jfrygeo/Farthest-On-Circle/blob/master/FarthestOnCircle/Video/FarthestOnCircleToolArcGISPro.mp4"</p>
 
 ### Known issues
 The sample dataset, (watermaskworld1km), has some issues as not all water areas are located in the dataset. For instance, inland bodies are water are not included, as well as small bodies of water such as canals, or narrow straits. 
