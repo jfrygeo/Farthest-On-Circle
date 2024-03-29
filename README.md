@@ -20,7 +20,7 @@ In this instance, the mask layer (watermaskworld1km) is a raster layer of water 
 
 ## Steps
 
-The steps are outlined in the video [Farthest On Circle Tutorial]("https://github.com/jfrygeo/Farthest-On-Circle/tree/master/FarthestOnCircle/Video")
+The steps are outlined in the video [Farthest On Circle Tutorial](https://github.com/jfrygeo/Farthest-On-Circle/tree/master/FarthestOnCircle/Video)
 
 ### Known issues
 The sample dataset, (watermaskworld1km), has some issues as not all water areas are located in the dataset. For instance, inland bodies are water are not included, as well as small bodies of water such as canals, or narrow straits. 
